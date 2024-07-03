@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NakamaEditor", "NakamaEditor.csproj", "{5246D2B1-BBEC-191C-6C34-9A952028BFEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NakamaRuntime", "NakamaRuntime.csproj", "{0BF4E302-D494-C64A-B42E-D0306C236F99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{91580178-33F7-64A3-22D2-DAE4C5BBB307}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5246D2B1-BBEC-191C-6C34-9A952028BFEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5246D2B1-BBEC-191C-6C34-9A952028BFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5246D2B1-BBEC-191C-6C34-9A952028BFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5246D2B1-BBEC-191C-6C34-9A952028BFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF4E302-D494-C64A-B42E-D0306C236F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF4E302-D494-C64A-B42E-D0306C236F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF4E302-D494-C64A-B42E-D0306C236F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF4E302-D494-C64A-B42E-D0306C236F99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91580178-33F7-64A3-22D2-DAE4C5BBB307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91580178-33F7-64A3-22D2-DAE4C5BBB307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91580178-33F7-64A3-22D2-DAE4C5BBB307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91580178-33F7-64A3-22D2-DAE4C5BBB307}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
