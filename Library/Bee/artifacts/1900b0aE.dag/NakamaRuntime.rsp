@@ -120,8 +120,6 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
--r:"Assets/Packages/Nakama/Runtime/Plugins/Nakama.dll"
--r:"Assets/Packages/Nakama/Runtime/Plugins/Satori.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Managed/UnityEditor.Graphs.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Managed/UnityEngine/UnityEditor.DeviceSimulatorModule.dll"
@@ -342,17 +340,21 @@
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Editor/VisualScripting.Core/EditorAssetResources/Unity.VisualScripting.TextureAssets.dll"
 -r:"Library/PackageCache/com.unity.visualscripting@1.9.4/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Packages/Nakama/Runtime/Plugins/Nakama.dll"
+-r:"Packages/Nakama/Runtime/Plugins/Satori.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.36f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Packages/Nakama/Runtime/ClientExtensions.cs"
-"Assets/Packages/Nakama/Runtime/JsWebSocketAdapter.cs"
-"Assets/Packages/Nakama/Runtime/Satori/UnityLogger.cs"
-"Assets/Packages/Nakama/Runtime/Satori/UnityWebRequestAdapter.cs"
-"Assets/Packages/Nakama/Runtime/UnityLogger.cs"
-"Assets/Packages/Nakama/Runtime/UnitySocket.cs"
-"Assets/Packages/Nakama/Runtime/UnityWebRequestAdapter.cs"
+-analyzer:"Packages/Nakama/Runtime/Plugins/Nakama.dll"
+-analyzer:"Packages/Nakama/Runtime/Plugins/Satori.dll"
+"Packages/Nakama/Runtime/ClientExtensions.cs"
+"Packages/Nakama/Runtime/JsWebSocketAdapter.cs"
+"Packages/Nakama/Runtime/Satori/UnityLogger.cs"
+"Packages/Nakama/Runtime/Satori/UnityWebRequestAdapter.cs"
+"Packages/Nakama/Runtime/UnityLogger.cs"
+"Packages/Nakama/Runtime/UnitySocket.cs"
+"Packages/Nakama/Runtime/UnityWebRequestAdapter.cs"
 -langversion:9.0
 /deterministic
 /optimize+

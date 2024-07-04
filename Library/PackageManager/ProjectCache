@@ -13,10 +13,18 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638556306944053460
-    m_Hash: 150666284
+      ticks: 638557055860505589
+    m_Hash: 3851586008
 m_EmbeddedPackageManifests:
-  m_ManifestsStatus: {}
+  m_ManifestsStatus:
+    D:/UnityProjects/Nakama Unity/Packages/Nakama/package.json:
+      m_FilePath: D:/UnityProjects/Nakama Unity/Packages/Nakama/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638526887640000000
+      m_Hash: 3726724759
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: D:/UnityProjects/Nakama Unity/Packages
@@ -2662,6 +2670,69 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  fingerprint: 
+- packageId: com.heroiclabs.nakama-unity@file:D:\UnityProjects\Nakama Unity\Packages\Nakama
+  testable: 1
+  isDirectDependency: 1
+  version: 3.12.1
+  source: 3
+  resolvedPath: D:\UnityProjects\Nakama Unity\Packages\Nakama
+  assetPath: Packages/com.heroiclabs.nakama-unity
+  name: com.heroiclabs.nakama-unity
+  displayName: Nakama Unity
+  author:
+    name: Heroic Labs
+    email: chris@heroiclabs.com
+    url: https://www.heroiclabs.com
+  category: 
+  type: 
+  description: Unity3D client for Nakama server written in C#.
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  keywords:
+  - app server
+  - client library
+  - game server
+  - nakama
+  - realtime
+  - realtime chat
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0

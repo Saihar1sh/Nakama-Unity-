@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "com.heroiclabs.nakama-unity": {
+      "version": "file:Nakama",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      }
+    },
     "com.unity.collab-proxy": {
       "version": "2.4.3",
       "depth": 0,
